@@ -1,0 +1,33 @@
+---
+import { getCollection, render } from 'astro:content';
+
+const speakers = (await getCollection('speakers')).sort(
+  (a, b) => a.data.order - b.data.order || a.data.name.localeCompare(b.data.name),
+);
+const rendered = await Promise.all(
+  speakers.map(async (speaker) => ({ speaker, Content: (await render(speaker)).Content })),
+);
+const hasSpeakers = rendered.length > 0;
+---
+
+{
+  hasSpeakers && (
+    <section class="speakers" aria-label="Plenary speakers">
+      {rendered.map(({ speaker, Content }) => (
+        <article class="speaker">
+          <h2>{speaker.data.name}</h2>
+          <p class="speaker-affiliation">{speaker.data.affiliation}</p>
+          {speaker.data.talkTitle && <p class="speaker-talk">{speaker.data.talkTitle}</p>}
+          <div class="prose">
+            <Content />
+          </div>
+          {speaker.data.website && (
+            <p>
+              <a href={speaker.data.website}>Website</a>
+            </p>
+          )}
+        </article>
+      ))}
+    </section>
+  )
+}

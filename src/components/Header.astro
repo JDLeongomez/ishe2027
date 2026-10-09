@@ -1,0 +1,47 @@
+---
+import { site, sections } from '../data/site';
+
+const path = Astro.url.pathname;
+const links = [...sections.map((s) => ({ href: `/${s.id}/`, label: s.label })), { href: '/news/', label: 'News' }];
+const isCurrent = (href: string) => path.startsWith(href);
+---
+
+<header class="site-header">
+  <div class="wrap site-header-inner">
+    <a class="brand" href="/">
+      <span class="brand-name">{site.shortName}</span>
+      <span class="brand-place">{site.city}, {site.dates.label}</span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Main">
+      <ul>
+        {
+          links.map((link) => (
+            <li>
+              <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <details class="mobile-nav">
+      <summary>Menu</summary>
+      <nav aria-label="Main">
+        <ul>
+          {
+            links.map((link) => (
+              <li>
+                <a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>
+                  {link.label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>

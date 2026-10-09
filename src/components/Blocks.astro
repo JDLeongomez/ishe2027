@@ -1,0 +1,24 @@
+---
+// Renders the blocks a page asks for in its "include" or "includeFirst".
+import Week from './Week.astro';
+import KeyDates from './KeyDates.astro';
+import Speakers from './Speakers.astro';
+import NewsList from './NewsList.astro';
+
+interface Props {
+  names: readonly string[];
+}
+
+const { names } = Astro.props;
+---
+
+{
+  names.map((name) => (
+    <div class="block">
+      {name === 'week' && <Week />}
+      {name === 'key-dates' && <KeyDates />}
+      {name === 'speakers' && <Speakers />}
+      {name === 'news' && <NewsList />}
+    </div>
+  ))
+}

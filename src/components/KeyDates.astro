@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+
+const dates = (await getCollection('keyDates')).sort((a, b) => a.data.order - b.data.order);
+---
+
+<section class="key-dates" aria-label="Key dates">
+  <dl>
+    {
+      dates.map((item) => (
+        <div class:list={['key-date', { 'is-open': !item.data.confirmed }]}>
+          <dt>{item.data.label}</dt>
+          <dd>{item.data.date}</dd>
+        </div>
+      ))
+    }
+  </dl>
+</section>

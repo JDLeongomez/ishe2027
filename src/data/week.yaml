@@ -1,0 +1,43 @@
+# The week at a glance. Shown on the home page and on the Programme page.
+# "when" is deliberately vague (Daytime, Morning, Afternoon, Evening)
+# until the timetable is confirmed. Add "where" only when it matters.
+
+- id: monday
+  date: 2027-07-05
+  note: Public holiday in Colombia
+  items:
+    - when: Daytime
+      what: Workshops for postgraduate students
+    - when: Later
+      what: Opening lecture and inaugural cocktail
+
+- id: tuesday
+  date: 2027-07-06
+  items:
+    - when: All day
+      what: Congress sessions
+
+- id: wednesday
+  date: 2027-07-07
+  items:
+    - when: Morning
+      what: Congress sessions
+    - when: Afternoon
+      what: Poster session
+      where: Universidad El Bosque
+
+- id: thursday
+  date: 2027-07-08
+  items:
+    - when: Morning
+      what: Congress sessions
+    - when: Afternoon
+      what: Guided tour of Bogotá
+
+- id: friday
+  date: 2027-07-09
+  items:
+    - when: Daytime
+      what: Final sessions
+    - when: Evening
+      what: Closing dinner

@@ -1,0 +1,46 @@
+---
+import Base from './Base.astro';
+import SectionNav from '../components/SectionNav.astro';
+import StatusNote from '../components/StatusNote.astro';
+import Blocks from '../components/Blocks.astro';
+import { formatDate, isoDate } from '../lib/dates';
+import { sectionOf, type PageEntry } from '../lib/nav';
+
+interface Props {
+  entry: PageEntry;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+---
+
+<Base title={data.title} description={data.description}>
+  <div class="wrap page">
+    <SectionNav sectionId={sectionOf(entry.id)} currentId={entry.id} />
+
+    <article class="page-body">
+      <header class="page-header">
+        <h1>{data.title}</h1>
+        <p class="lede">{data.description}</p>
+      </header>
+
+      <StatusNote status={data.status} />
+
+      <Blocks names={data.includeFirst} />
+
+      <div class="prose">
+        <slot />
+      </div>
+
+      <Blocks names={data.include} />
+
+      {
+        data.updated && (
+          <p class="updated">
+            Last updated <time datetime={isoDate(data.updated)}>{formatDate(data.updated)}</time>
+          </p>
+        )
+      }
+    </article>
+  </div>
+</Base>

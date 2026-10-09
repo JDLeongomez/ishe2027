@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import { formatDayMonth, formatWeekday, isoDate } from '../lib/dates';
+
+const days = (await getCollection('week')).sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+---
+
+<section class="week" aria-label="The week at a glance">
+  <ol class="week-days">
+    {
+      days.map((day) => (
+        <li class="week-day">
+          <h3>
+            <span class="week-weekday">{formatWeekday(day.data.date)}</span>
+            <time class="week-date" datetime={isoDate(day.data.date)}>
+              {formatDayMonth(day.data.date)}
+            </time>
+          </h3>
+          <ul class="week-items">
+            {day.data.items.map((item) => (
+              <li>
+                <span class="week-when">{item.when}</span>
+                <span class="week-what">{item.what}</span>
+                {item.where && <span class="week-where">at {item.where}</span>}
+              </li>
+            ))}
+          </ul>
+          {day.data.note && <p class="week-note">{day.data.note}</p>}
+        </li>
+      ))
+    }
+  </ol>
+  <p class="week-caveat">Times and details will be confirmed with the full programme.</p>
+</section>

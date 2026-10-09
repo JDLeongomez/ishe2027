@@ -1,0 +1,32 @@
+# Key dates. Shown on the home page and wherever a page includes "key-dates".
+# Set confirmed: true once a date is final.
+
+- id: abstracts-open
+  label: Call for abstracts opens
+  date: To be announced
+  confirmed: false
+  order: 1
+
+- id: registration-open
+  label: Registration opens
+  date: To be announced
+  confirmed: false
+  order: 2
+
+- id: abstracts-deadline
+  label: Abstract submission deadline
+  date: To be announced
+  confirmed: false
+  order: 3
+
+- id: early-registration
+  label: Early registration deadline
+  date: To be announced
+  confirmed: false
+  order: 4
+
+- id: congress
+  label: Congress in Bogotá
+  date: 5–9 July 2027
+  confirmed: true
+  order: 5

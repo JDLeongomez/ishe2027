@@ -1,0 +1,48 @@
+/*
+  Design tokens: every colour, typeface and size the site uses.
+  When the visual identity arrives, this is the file to change.
+  The current palette comes from the 2027 bid presentation.
+*/
+
+:root {
+  /* Colour */
+  --forest-900: #0f3d1e; /* hero and footer background */
+  --forest-700: #1a5c2a; /* brand green: links, headings */
+  --forest-100: #e4ede4; /* tinted bands */
+  --gold-500: #c8a415; /* brand gold: rules and marks, never body text */
+  --gold-300: #e3c84f; /* gold on dark backgrounds */
+  --ink: #15231a; /* text */
+  --ink-soft: #4b5b50; /* secondary text */
+  --rule: #cdd8cf; /* hairlines */
+  --paper: #ffffff;
+  --paper-tint: #f3f6f1;
+  --on-dark: #f4f7f0;
+  --on-dark-soft: #c3d2c5;
+
+  /* Type */
+  --font-display: 'Bricolage Grotesque Variable', 'Inter Display', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Atkinson Hyperlegible', 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  --step--1: 0.875rem;
+  --step-0: 1.0625rem;
+  --step-1: 1.25rem;
+  --step-2: 1.5rem;
+  --step-3: clamp(1.75rem, 1.4rem + 1.4vw, 2.25rem);
+  --step-4: clamp(2.25rem, 1.6rem + 2.6vw, 3.25rem);
+  --step-hero: clamp(2.75rem, 1rem + 8.2vw, 7rem);
+
+  /* Space */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  --wrap: 72rem;
+  --measure: 40rem; /* comfortable reading width */
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --radius-chip: 0.5rem;
+}

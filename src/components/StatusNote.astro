@@ -1,0 +1,22 @@
+---
+interface Props {
+  status: 'ready' | 'preliminary' | 'soon';
+}
+
+const { status } = Astro.props;
+---
+
+{
+  status === 'preliminary' && (
+    <p class="status-note">
+      <strong>Preliminary plan.</strong> Details may change as the congress takes shape.
+    </p>
+  )
+}
+{
+  status === 'soon' && (
+    <p class="status-note">
+      <strong>Coming soon.</strong> We will add this information as soon as it is confirmed.
+    </p>
+  )
+}

@@ -1,0 +1,66 @@
+---
+import { site } from '../data/site';
+import { getNav, menuTitle, pageHref } from '../lib/nav';
+
+const nav = await getNav();
+
+const partnerLogos = [
+  { name: site.society.name, url: site.society.url, src: '/logos/ishe.jpg' },
+  { name: site.host.name, url: site.host.faculty.url, src: '/logos/ueb.svg' },
+];
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <nav class="footer-nav" aria-label="All pages">
+      {
+        nav.map((section) => (
+          <div>
+            <h2>
+              <a href={section.href}>{section.label}</a>
+            </h2>
+            <ul>
+              {section.pages
+                .filter((page) => pageHref(page.id) !== section.href)
+                .map((page) => (
+                  <li>
+                    <a href={pageHref(page.id)}>{menuTitle(page)}</a>
+                  </li>
+                ))}
+            </ul>
+          </div>
+        ))
+      }
+    </nav>
+
+    <div class="footer-meta">
+      <p>
+        {site.name} is the annual meeting of the
+        <a href={site.society.url}>{site.society.name}</a>, hosted in {site.city} by
+        <a href={site.host.url}>{site.host.name}</a>.
+      </p>
+      <p>
+        {
+          site.contactEmail ? (
+            <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+          ) : (
+            <a href="/about/contact/">Contact</a>
+          )
+        }
+      </p>
+      <ul class="partner-logos">
+        {
+          partnerLogos.map((logo) => (
+            <li>
+              <a href={logo.url}>
+                <span class="partner-logo-chip">
+                  <img src={logo.src} alt={logo.name} />
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </div>
+</footer>

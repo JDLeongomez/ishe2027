@@ -1,0 +1,25 @@
+---
+// One route for every Markdown page in src/content/pages/.
+import { getCollection, render } from 'astro:content';
+import Page from '../layouts/Page.astro';
+import { pageSlug, type PageEntry } from '../lib/nav';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map((entry) => ({
+    params: { slug: pageSlug(entry.id) },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: PageEntry;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Page entry={entry}>
+  <Content />
+</Page>

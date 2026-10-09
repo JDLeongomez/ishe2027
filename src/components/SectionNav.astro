@@ -1,0 +1,33 @@
+---
+import { getNav, menuTitle, pageHref } from '../lib/nav';
+
+interface Props {
+  sectionId: string;
+  currentId: string;
+}
+
+const { sectionId, currentId } = Astro.props;
+const section = (await getNav()).find((s) => s.id === sectionId);
+const current = pageHref(currentId);
+// A section with a single page needs no menu.
+const pages = section && section.pages.length > 1 ? section.pages : [];
+const showMenu = pages.length > 0;
+---
+
+{
+  section && showMenu && (
+    <nav class="section-nav" aria-label={`${section.label} pages`}>
+      <p class="section-nav-title">{section.label}</p>
+      <ul>
+        {pages.map((page) => (
+          <li>
+            <a href={pageHref(page.id)} aria-current={pageHref(page.id) === current ? 'page' : undefined}>
+              {pageHref(page.id) === section.href ? 'Overview' : menuTitle(page)}
+            </a>
+            {page.data.status === 'soon' && <span class="soon-tag">soon</span>}
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}

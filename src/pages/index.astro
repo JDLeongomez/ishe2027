@@ -1,0 +1,103 @@
+---
+import Base from '../layouts/Base.astro';
+import Ridge from '../components/Ridge.astro';
+import Week from '../components/Week.astro';
+import KeyDates from '../components/KeyDates.astro';
+import NewsList from '../components/NewsList.astro';
+import { site } from '../data/site';
+import { getNav, menuTitle, pageHref } from '../lib/nav';
+
+const nav = await getNav();
+const bogota = nav.find((section) => section.id === 'bogota');
+const tripPages = bogota ? bogota.pages.filter((page) => pageHref(page.id) !== bogota.href) : [];
+---
+
+<Base>
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="hero-event">{site.name}</p>
+      <h1>
+        <span class="hero-place">{site.city}, {site.country}</span>
+        <span class="hero-dates">{site.dates.label}</span>
+      </h1>
+      <p class="hero-lede">
+        The {site.society.name} meets in the Colombian Andes for a week of workshops, talks and posters on human
+        behaviour, 2,640 metres above sea level.
+      </p>
+      <p class="hero-actions">
+        <a class="button" href="/programme/">See the preliminary programme</a>
+        <a class="button button-quiet" href="/bogota/">Plan your trip to Bogotá</a>
+      </p>
+    </div>
+    <Ridge />
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <h2>The week at a glance</h2>
+      <p class="band-intro">
+        A day of workshops for postgraduate students opens the congress, followed by four days of sessions, a poster
+        session at Universidad El Bosque, an afternoon in the historic centre and a closing dinner.
+      </p>
+      <Week />
+    </div>
+  </section>
+
+  <section class="band band-tint">
+    <div class="wrap split">
+      <div>
+        <h2>Key dates</h2>
+        <p class="band-intro">
+          The call for abstracts and registration have not opened yet. Dates will appear here first.
+        </p>
+      </div>
+      <KeyDates />
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <h2>Getting ready for Bogotá</h2>
+      <p class="band-intro">
+        Bogotá is a high, cool, green city of more than seven million people. A few things are worth knowing before you
+        pack.
+      </p>
+      <ul class="link-list">
+        {
+          tripPages.map((page) => (
+            <li>
+              <a href={pageHref(page.id)}>{menuTitle(page)}</a>
+              <p>{page.data.description}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="band band-tint">
+    <div class="wrap split">
+      <div>
+        <h2>News</h2>
+        <p class="band-intro"><a href="/news/">All news</a></p>
+      </div>
+      <NewsList limit={3} />
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap split">
+      <h2>Who is organising it</h2>
+      <div class="prose">
+        <p>
+          The congress is the annual meeting of the
+          <a href={site.society.url}>{site.society.name}</a> ({site.society.shortName}), which promotes ethological
+          perspectives in the scientific study of human behaviour. In 2027 it is hosted by the Human Behaviour and
+          Evolution Lab (<a href={site.lab.url}>{site.lab.shortName}</a>), part of the {site.group.name} research
+          group (<a href={site.group.url}>{site.group.shortName}</a>) at <a href={site.host.url}>{site.host.name}</a>.
+        </p>
+        <p><a href="/about/">About the congress and its hosts</a></p>
+      </div>
+    </div>
+  </section>
+</Base>
