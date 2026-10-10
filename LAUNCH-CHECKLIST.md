@@ -6,10 +6,10 @@
 - [ ] Deployed on Netlify and checked on a phone.
 - [ ] Final domain set in Netlify and in `src/data/site.ts` (`url`).
 - [ ] Contact email set in `src/data/site.ts` (`contactEmail`) and in `src/content/pages/about/contact.md`.
-- [ ] Visual identity applied: `src/styles/tokens.css`, logo in the header, hero (`src/components/Ridge.astro`), favicon, a social sharing (OG) image. If the ridge keeps the church-in-the-mountains motif, make it read clearly as white and as a church — see the concept sketch at `/home/jdl/Documents/Sync/Research/Conferencias y visitas académicas/PLAN ISHE 2027/Imagen ISHE 2027/Ideas preliminares/ISHE2027_D2_linea.svg`. A provisional OG image (`public/og-image.png`, wired up in `src/layouts/Base.astro`) reuses the current placeholder palette and the hero's ridge motif; replace it once the final identity is set.
+- [ ] Visual identity applied: `src/styles/tokens.css`, logo in the header, hero (`src/components/Ridge.astro`), favicon, a social sharing (OG) image. The hero and the OG image (`public/og-image.png`, wired up in `src/layouts/Base.astro`) now share a "sound wave becoming the Cerros Orientales" bars motif with Monserrate's sanctuary at the peak (2026-10-10), replacing the earlier church-in-the-mountains placeholder line — source artwork at `/home/jdl/Documents/Sync/Research/Conferencias y visitas académicas/PLAN ISHE 2027/Imagen ISHE 2027/ISHE2027_hero_barras.svg`. This is still a draft idea, not a confirmed final identity. Still pending: a matching logo in the header (currently text only), the favicon, and the final colour palette in `tokens.css`.
 - [ ] Once a final palette is decided, confirm it can be applied by editing `src/styles/tokens.css` alone, with no colours hardcoded elsewhere in the site.
 - [ ] Check that the ISHE and Universidad El Bosque logos are used correctly (size, spacing, approved colour variant) against each organisation's own brand guidelines, if they have one.
-- [x] Photos added, each with a licence that allows it. None of the presentation's images were copied, because their licences are unknown. Five destination photos (Museo del Oro, Museo Botero, Monserrate, La Candelaria, Universidad El Bosque) were added from Wikimedia Commons instead, each credited and linked to its CC BY-SA licence in `social-programme.md`, `things-to-do.md` and `venue/index.md`. This still leaves the visual identity images above (hero, favicon, OG image) to source separately.
+- [x] Photos added, each with a licence that allows it. None of the presentation's images were copied, because their licences are unknown. Five destination photos (Museo del Oro, Museo Botero, Monserrate, La Candelaria, Universidad El Bosque) were added from Wikimedia Commons instead, each credited and linked to its CC BY-SA licence in `social-programme.md`, `things-to-do.md` and `venue/index.md`. This still leaves the favicon to source separately (the hero and OG image now use original artwork drawn for the congress, see above).
 - [x] ~~The flight map on "Getting here" was broken (CARTO's `DarkMatter` basemap started requiring an API key, showing an "API KEY REQUIRED" watermark) and loaded from a separate repo.~~ Fixed: `bog_flights_map.R` (in `Presentation-ISHE-2027`) no longer fetches any basemap tiles — it draws the world from bundled Natural Earth data instead, so there is nothing left to request and nothing that can start requiring a key again. The regenerated `bog_map.html` is copied into `public/` here and the iframe points to `/bog_map.html`. If the flight routes or destinations ever change, re-run `bog_flights_map.R` and copy the new `bog_map.html` over again — it is not symlinked or auto-synced.
 - [ ] `indexable: true` in `src/data/site.ts`.
 
@@ -78,7 +78,6 @@ Sources are given where there is one. "General knowledge" means no source was ch
 
 - [ ] Biodiversity rankings (presentation, from SiB Colombia).
 - [ ] 65 Indigenous languages and two Creole languages (general knowledge).
-- [ ] All YouTube links still work.
 
 ### About
 
