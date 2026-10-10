@@ -30,7 +30,7 @@ Colombia is known as "the land of a thousand rhythms", and the count of traditio
 
 The [Colombian Music Map](https://jdleongomez.github.io/Colombian_music_map/), created by congress host Juan David Leongómez, is an interactive guide to that diversity: it plots traditional, fusion and non-traditional musical examples across the country's six regions, each with its own playable audio clip.
 
-<a href="https://jdleongomez.github.io/Colombian_music_map/">
+<a href="https://jdleongomez.github.io/Colombian_music_map/"  target="_blank" rel="noopener noreferrer">
   <img src="/images/colombia-music-map.jpg" alt="Colombian Music Map: an interactive map of Colombian musical traditions">
 </a>
 
