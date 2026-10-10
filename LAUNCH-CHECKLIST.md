@@ -2,14 +2,14 @@
 
 ## 1. Technical
 
-- [ ] `npm install`, `npm run check` and `npm run build` run without errors (never run so far).
+- [x] `pnpm install`, `pnpm check` and `pnpm build` run without errors (verified 2026-10-10; the only warning is the expected empty `speakers` collection).
 - [ ] Deployed on Netlify and checked on a phone.
 - [ ] Final domain set in Netlify and in `src/data/site.ts` (`url`).
 - [ ] Contact email set in `src/data/site.ts` (`contactEmail`) and in `src/content/pages/about/contact.md`.
 - [ ] Visual identity applied: `src/styles/tokens.css`, logo in the header, hero (`src/components/Ridge.astro`), favicon, a social sharing (OG) image. If the ridge keeps the church-in-the-mountains motif, make it read clearly as white and as a church — see the concept sketch at `/home/jdl/Documents/Sync/Research/Conferencias y visitas académicas/PLAN ISHE 2027/Imagen ISHE 2027/Ideas preliminares/ISHE2027_D2_linea.svg`.
 - [ ] Once a final palette is decided, confirm it can be applied by editing `src/styles/tokens.css` alone, with no colours hardcoded elsewhere in the site.
 - [ ] Check that the ISHE and Universidad El Bosque logos are used correctly (size, spacing, approved colour variant) against each organisation's own brand guidelines, if they have one.
-- [ ] Photos added, each with a licence that allows it. None of the presentation's images were copied, because their licences are unknown.
+- [x] Photos added, each with a licence that allows it. None of the presentation's images were copied, because their licences are unknown. Five destination photos (Museo del Oro, Museo Botero, Monserrate, La Candelaria, Universidad El Bosque) were added from Wikimedia Commons instead, each credited and linked to its CC BY-SA licence in `social-programme.md`, `things-to-do.md` and `venue/index.md`. This still leaves the visual identity images above (hero, favicon, OG image) to source separately.
 - [x] ~~The flight map on "Getting here" was broken (CARTO's `DarkMatter` basemap started requiring an API key, showing an "API KEY REQUIRED" watermark) and loaded from a separate repo.~~ Fixed: `bog_flights_map.R` (in `Presentation-ISHE-2027`) no longer fetches any basemap tiles — it draws the world from bundled Natural Earth data instead, so there is nothing left to request and nothing that can start requiring a key again. The regenerated `bog_map.html` is copied into `public/` here and the iframe points to `/bog_map.html`. If the flight routes or destinations ever change, re-run `bog_flights_map.R` and copy the new `bog_map.html` over again — it is not symlinked or auto-synced.
 - [ ] `indexable: true` in `src/data/site.ts`.
 
@@ -17,7 +17,8 @@
 
 - [ ] Official name of the meeting. The site says "ISHE Congress 2027". The 2026 meeting was the "XXVIII Biennial Congress".
 - [ ] The description of ISHE on the home page and the About page (paraphrased, not the society's own wording).
-- [ ] Full list of organisers and the programme committee, with titles, affiliations and a link to each person's profile.
+- [x] Full list of organisers and the programme committee, with affiliations and a link to each person's profile. Added to `src/content/pages/about/index.md`. Academic titles were not supplied and are left out, matching the style already used for the organisers.
+- [ ] Ask each member of the organisers and programme committee lists whether they want to use a different photo. The current ones in `public/committee/` are a first idea, picked and cropped without asking.
 - [ ] Code of conduct: adapt the one ISHE used for its 2026 meeting in Les Eyzies, France (https://ishe.org/conferences-and-summer-institutes/), updating event and venue details for ISHE 2027. Draft text is saved as a comment in `src/content/pages/about/code-of-conduct.md`; publish it there and delete the `status: soon` line.
 - [ ] Ask Jarka to review the whole site and list what needs to change.
 - [ ] Whether the Monday cocktail, the poster session at Universidad El Bosque, the city tour route and the Caribbean trip can be announced as written (all marked as preliminary).
@@ -43,7 +44,8 @@ Sources are given where there is one. "General knowledge" means no source was ch
 - [ ] Airport distance (14 km) and driving time (30 to 60 minutes): estimates.
 - [ ] Taxi fare "USD 20 at most": your figure. Add the amount in pesos.
 - [ ] Uber, DiDi, Cabify and inDrive all operating in 2027, and the sentence about sitting in the front seat.
-- [ ] TransMilenio: M86 and K86 dual service, feeder 16-14, TuLlave card sold at the airport (bogota.gov.co, June 2026). The M86 ran Monday to Saturday in February 2026 (Publimetro). Sunday and holiday service, the nearest stop and the walking time to Parque de la 93 are not confirmed.
+- [x] TransMilenio: M86 and K86 dual service, feeder 16-14, TuLlave card sold at the airport (bogota.gov.co, June 2026). The M86 starts at Portal El Dorado, not the airport itself (reached via the 16-14 feeder); get off at Carrera 7 – Calle 92 or Carrera 7 – Calle 94 for Parque de la 93. Hours: Monday to Saturday 4:00 am–10:00 pm, Sundays and public holidays 5:00 am–9:00 pm (official TransMilenio route finder, buscador-rutas.transmilenio.gov.co, cross-checked with sitp-bogota.com and Moovit, October 2026).
+- [ ] TransMilenio journey times (feeder 10-15 min, transfer walk 5-10 min, M86 leg 30-40 min, total 45 min off-peak / 60-75 min at rush hour): estimates, not from an official source.
 
 ### Where to stay
 
@@ -70,7 +72,7 @@ Sources are given where there is one. "General knowledge" means no source was ch
 
 ### Staying safe
 
-- [ ] Tone, and whether to name the two hospitals.
+- [x] Tone, and whether to name the two hospitals.
 
 ### Colombia
 

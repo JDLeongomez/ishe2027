@@ -367,6 +367,11 @@ svg {
   color: var(--forest-900);
 }
 
+.band-photo {
+  max-width: 28rem;
+  margin-top: var(--space-6);
+}
+
 .band-intro {
   max-width: var(--measure);
   margin-top: var(--space-4);
@@ -784,11 +789,89 @@ svg {
   font-weight: 700;
 }
 
+.prose .person-meta {
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+
+.prose .person-photo {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-inline-end: var(--space-2);
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
 .prose blockquote {
   margin-inline: 0;
   padding-inline-start: var(--space-4);
   border-inline-start: 4px solid var(--gold-500);
   color: var(--ink-soft);
+}
+
+figure.photo {
+  margin: 0;
+}
+
+figure.photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--radius-chip);
+}
+
+figure.photo figcaption {
+  margin-top: var(--space-2);
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+
+.photo-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+}
+
+.photo-row figure.photo {
+  flex: 1 1 14rem;
+}
+
+.lightbox-link {
+  display: block;
+  cursor: zoom-in;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--forest-900) 90%, transparent);
+  z-index: 100;
+}
+
+.lightbox:target {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: var(--radius-chip);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: var(--space-5);
+  right: var(--gutter);
+  color: var(--on-dark);
+  font-size: var(--step-2);
+  line-height: 1;
+  text-decoration: none;
 }
 
 .prose table {

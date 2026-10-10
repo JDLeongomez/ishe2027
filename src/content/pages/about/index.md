@@ -2,7 +2,7 @@
 title: About the congress
 navTitle: About
 description: ISHE 2027 brings the International Society for Human Ethology to Colombia, with a new format that joins the congress and the postgraduate workshops in a single meeting.
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 ## The society
@@ -23,7 +23,7 @@ Colombia is one of the most biologically and culturally diverse countries on Ear
 
 ## The hosts
 
-The congress is hosted by the Human Behaviour and Evolution Lab ([EvoCo](https://jdleongomez.info/en/lab/)), part of the Cognitive and Behavioural Sciences research group ([CODEC](https://grupo-codec.netlify.app/), ranked A1, the top category for research groups in Colombia) at [Universidad El Bosque](https://www.unbosque.edu.co/), a university in the north of Bogotá recognised by the Colombian government as a High Quality institution. EvoCo is one of the few research centres in South America that study human behaviour from an evolutionary perspective, with work ranging from mate choice and the perception of faces and voices to hormones and behaviour. One of the other congress organisers is also part of CODEC, beyond the EvoCo lab itself.
+The congress is hosted by the Human Behaviour and Evolution Lab ([EvoCo](https://jdleongomez.info/en/lab/)), part of the Cognitive and Behavioural Sciences research group ([CODEC](https://grupo-codec.netlify.app/)) at the [Faculty of Psychology](https://www.unbosque.edu.co/programas-academicos/facultad-psicologia), [Universidad El Bosque](https://www.unbosque.edu.co/). CODEC is ranked A1, the top category for research groups in Colombia, and Universidad El Bosque is recognised by the Colombian government as a High Quality institution. EvoCo is one of the few research centres in South America that study human behaviour from an evolutionary perspective, with work ranging from mate choice and the perception of faces and voices to hormones and behaviour. Milena Vásquez-Amézquita, another congress organiser, is also part of CODEC, beyond the EvoCo lab.
 
 <p class="host-logos">
   <a href="https://jdleongomez.info/en/lab/"><img src="/logos/evoco.png" alt="EvoCo, Human Behaviour and Evolution Lab" class="host-logo" /></a>
@@ -32,7 +32,16 @@ The congress is hosted by the Human Behaviour and Evolution Lab ([EvoCo](https:/
 
 ## Organisers
 
-- [**Juan David Leongómez**](https://jdleongomez.info/), Universidad El Bosque, local host.
-- **Jaroslava Varella Valentova**, University of São Paulo, Vice-President of ISHE.
+- <img src="/committee/juan-david-leongomez.jpg" alt="" class="person-photo" />[**Juan David Leongómez**](https://jdleongomez.info/)<span class="person-meta">, Universidad El Bosque, Colombia, local host.</span>
+- <img src="/committee/jaroslava-varella-valentova.jpg" alt="" class="person-photo" />[**Jaroslava Varella Valentova**](https://www.ip.usp.br/site/jaroslava-varella-valentova/)<span class="person-meta">, University of São Paulo, Brazil, Vice-President of ISHE.</span>
+- <img src="/committee/milena-vasquez-amezquita.jpg" alt="" class="person-photo" />[**Milena Vásquez-Amézquita**](https://www.linkedin.com/in/milena-v%C3%A1squez-am%C3%A9zquita-911b52b1/?isSelfProfile=false)<span class="person-meta">, Universidad El Bosque, Colombia, local organiser.</span>
 
-The programme committee will be announced here.
+## Scientific programme committee
+
+- <img src="/committee/jan-havlicek.jpg" alt="" class="person-photo" />[**Jan Havlíček**](https://natur.cuni.cz/en/person?poid=1414893097728271)<span class="person-meta">, Charles University, Czech Republic, President of ISHE.</span>
+- <img src="/committee/jaroslava-varella-valentova.jpg" alt="" class="person-photo" />[**Jaroslava Varella Valentova**](https://www.ip.usp.br/site/jaroslava-varella-valentova/)<span class="person-meta">, University of São Paulo, Brazil, Vice-President of ISHE.</span>
+- <img src="/committee/ana-maria-fernandez.jpg" alt="" class="person-photo" />[**Ana María Fernández**](https://fahu.usach.cl/academico/ana-fernandez/)<span class="person-meta">, Universidad de Santiago de Chile, Chile, Secretary of ISHE.</span>
+- <img src="/committee/s-craig-roberts.jpg" alt="" class="person-photo" />[**S. Craig Roberts**](https://www.scraigroberts.com/)<span class="person-meta">, University of Stirling, UK, Trustee and former President of ISHE.</span>
+- <img src="/committee/maryanne-fisher.jpg" alt="" class="person-photo" />[**Maryanne Fisher**](https://www.smu.ca/researchers/science/profiles/maryanne-l-fisher.html)<span class="person-meta">, Saint Mary's University, Canada, Trustee of ISHE.</span>
+- <img src="/committee/milena-vasquez-amezquita.jpg" alt="" class="person-photo" />[**Milena Vásquez-Amézquita**](https://www.linkedin.com/in/milena-v%C3%A1squez-am%C3%A9zquita-911b52b1/?isSelfProfile=false)<span class="person-meta">, Universidad El Bosque, Colombia, local organiser.</span>
+- <img src="/committee/juan-david-leongomez.jpg" alt="" class="person-photo" />[**Juan David Leongómez**](https://jdleongomez.info/)<span class="person-meta">, Universidad El Bosque, Colombia, local host.</span>

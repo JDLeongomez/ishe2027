@@ -2,7 +2,7 @@
 title: Things to do
 description: Suggestions from the local organisers, from a coffee near the venue to a day in the páramo.
 order: 5
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 ## Around the venue
@@ -23,6 +23,13 @@ updated: 2026-10-09
 - **Paloquemao market.** Go in the morning for fruit you may never have seen: lulo, guanábana, pitahaya, uchuva, curuba, feijoa.
 - **Jardín Botánico.** The botanical garden, with Andean forest and páramo plants, including the frailejones of the high moorlands.
 - **Ciclovía.** Every Sunday and public holiday morning, main roads close to cars and fill with bicycles, runners and families. It has been running since 1974.
+
+<figure class="photo">
+  <a href="#lb-museo-botero" class="lightbox-link"><img src="/images/places/museo-botero.jpg" alt="A gallery of paintings by Fernando Botero at the Museo Botero" /></a>
+  <figcaption>Museo Botero. Photo: <a href="https://commons.wikimedia.org/wiki/File:Museo_Botero,_Boteromuseum_03.jpg">Burkhard Mücke</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</figcaption>
+</figure>
+
+<div id="lb-museo-botero" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close">&times;</a><img src="/images/places/museo-botero.jpg" alt="A gallery of paintings by Fernando Botero at the Museo Botero" /></div>
 
 ## Food and coffee
 

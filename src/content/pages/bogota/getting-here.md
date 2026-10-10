@@ -2,7 +2,7 @@
 title: Getting here
 description: Flights to Bogotá, what you need to enter Colombia, and how to get from El Dorado airport to the congress area.
 order: 1
-updated: 2026-10-09
+updated: 2026-10-10
 ---
 
 ## Flying to Bogotá
@@ -27,22 +27,24 @@ Citizens of most countries in the Americas and Europe, including the European Un
 
 El Dorado is about 14 km (8.7 mi) from the congress area. By car the trip takes 30 to 60 minutes depending on traffic, and longer at rush hour (roughly 6 to 9 am and 4 to 8 pm on weekdays).
 
-### Taxi
-
-Authorised taxis wait at the official rank outside the arrivals hall. Ignore anyone who offers you a ride inside the terminal. The fare is set by the meter plus an airport surcharge, and to the congress area it should come to the equivalent of USD 20 at most, paid in pesos. Have some cash, as not every taxi takes cards.
-
 ### Ride-hailing apps
 
 Uber, DiDi, Cabify and inDrive all work in Bogotá and are widely used by locals and visitors. You see the price before you confirm and can pay by card in the app, which also tells you where to meet the driver. Ride-hailing sits in a regulatory grey area in Colombia, so a driver may ask one passenger to sit in the front seat.
+
+### Taxi
+
+Authorised taxis wait at the official rank outside the arrivals hall. Ignore anyone who offers you a ride inside the terminal. The fare is set by the meter plus an airport surcharge, and to the congress area it should come to the equivalent of USD 20 at most, paid in pesos. Have some cash, as not every taxi takes cards.
 
 ### Public transport
 
 TransMilenio, the city's bus rapid transit system, is by far the cheapest option. You need a TuLlave card, sold and topped up at the airport.
 
-- The dual service **M86** leaves from the airport, runs along Calle 26 and then north along Carrera Séptima, a ten to fifteen minute walk from the Parque de la 93 area. In the opposite direction it is the **K86**.
-- The free feeder bus **16-14** links the terminal with Portal El Dorado, where the rest of the network begins.
+- The free feeder bus **16-14** links the terminal with Portal El Dorado, where the rest of the network begins. The ride takes 10 to 15 minutes, plus a 5 to 10 minute walk at Portal El Dorado to reach the M86 platform.
+- From Portal El Dorado, the dual service **M86** runs along Calle 26 and then north along Carrera Séptima. Get off at **Carrera 7 – Calle 92** or **Carrera 7 – Calle 94**, a ten to fifteen minute walk from the Parque de la 93 area. In the opposite direction it is the **K86**. It runs Monday to Saturday, 4:00 am to 10:00 pm, and Sundays and public holidays, 5:00 am to 9:00 pm. This leg takes 30 to 40 minutes.
 
-Check routes, stops and timetables in the official TransMiApp, especially on Sundays and public holidays. We do not recommend public transport if you arrive late at night, at rush hour, or with large luggage.
+All together, allow 45 minutes outside rush hour, and 60 to 75 minutes at rush hour, not counting the walk from Carrera 7 to your accommodation.
+
+Check routes, stops and timetables in the official TransMiApp, especially on Sundays and public holidays. **We do not recommend public transport if you arrive at rush hour, or with large luggage**.
 
 ### Hotel transfers
 

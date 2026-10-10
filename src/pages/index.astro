@@ -69,6 +69,19 @@ const tripPages = bogota ? bogota.pages.filter((page) => pageHref(page.id) !== b
         Bogotá is a high, cool, green city of more than seven million people. A few things are worth knowing before you
         pack.
       </p>
+      <figure class="photo band-photo">
+        <a href="#lb-centro-internacional" class="lightbox-link">
+          <img src="/images/places/centro-internacional.jpg" alt="Bogotá's skyline at sunset, with the Centro Internacional towers and the eastern hills" />
+        </a>
+        <figcaption>
+          Photo: <a href="https://commons.wikimedia.org/wiki/File:Centro_internacional.JPG">Felipe Restrepo Acosta</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.
+        </figcaption>
+      </figure>
+      <div id="lb-centro-internacional" class="lightbox">
+        <a href="#" class="lightbox-close" aria-label="Close">&times;</a>
+        <img src="/images/places/centro-internacional.jpg" alt="Bogotá's skyline at sunset, with the Centro Internacional towers and the eastern hills" />
+      </div>
       <ul class="link-list">
         {
           tripPages.map((page) => (
