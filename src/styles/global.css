@@ -307,38 +307,46 @@ svg {
   pointer-events: none;
 }
 
-.ridge-line {
-  fill: none;
-  stroke: var(--gold-300);
-  stroke-width: 2;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  stroke-dasharray: 1;
-  stroke-dashoffset: 0;
+.ridge-bars {
+  fill: url(#grad-onda);
 }
 
-.ridge-church {
-  fill: var(--gold-300);
+.ridge-bar {
+  transform-box: fill-box;
+  transform-origin: bottom;
 }
 
-/* The one piece of motion on the site: the line draws itself once. */
+.ridge-stop-start {
+  stop-color: var(--gold-500);
+}
+
+.ridge-stop-end {
+  stop-color: var(--cream-100);
+}
+
+.ridge-icon {
+  fill: var(--cream-100);
+}
+
+/* The one piece of motion on the site: the wave rises, then the roof settles in. */
 @media (prefers-reduced-motion: no-preference) {
-  .ridge-line {
-    animation: draw-ridge 2.6s cubic-bezier(0.3, 0, 0.2, 1) both;
+  .ridge-bar {
+    animation: rise-bar 0.5s cubic-bezier(0.3, 0, 0.2, 1) both;
+    animation-delay: calc(var(--i) * 0.006s);
   }
 
-  .ridge-church {
+  .ridge-icon {
     animation: fade-in 0.6s 2s both;
   }
 }
 
-@keyframes draw-ridge {
+@keyframes rise-bar {
   from {
-    stroke-dashoffset: 1;
+    transform: scaleY(0);
   }
 
   to {
-    stroke-dashoffset: 0;
+    transform: scaleY(1);
   }
 }
 
@@ -928,6 +936,10 @@ figure.photo figcaption {
   aspect-ratio: 4 / 3;
   border: 1px solid var(--rule);
   border-radius: 4px;
+}
+
+.prose iframe.wide {
+  aspect-ratio: 16 / 9;
 }
 
 .prose hr {

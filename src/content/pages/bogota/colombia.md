@@ -26,18 +26,13 @@ Each region has its own mix of Indigenous, European and African heritage, with i
 
 ## Music, as an example
 
-Colombia is known as "the land of a thousand rhythms", and the count of traditional rhythms passes that number. A short tour by region, with one click each:
+Colombia is known as "the land of a thousand rhythms", and the count of traditional rhythms passes that number.
 
-| Region | Traditional | Contemporary |
-| --- | --- | --- |
-| Caribbean | [Totó La Momposina, *El Pescador*](https://youtu.be/3wN5YcDTx0Y) | [Systema Solar, *Yo Voy Ganao*](https://youtu.be/I9t4XTOwtEo) |
-| Pacific | [Herencia de Timbiquí, *Amanece*](https://youtu.be/BuBrF_npl_g) | [ChocQuibTown, *De Donde Vengo Yo*](https://youtu.be/yMS4J6Gp6e4) |
-| Andean | [Fulgencio García, *La gata golosa*](https://youtu.be/rA-vUpaMUhU) | [Monsieur Periné, *Lloré*](https://youtu.be/YiJ2YSxLYpg) |
-| Orinoquía | [Cholo Valderrama, *Llanero sí soy llanero*](https://youtu.be/FZoMdjH0FdE) | |
-| Amazon | [Indio Cuper, *Tonada amazónica*](https://youtu.be/vV4n2q8764w) | |
-| Insular | [Coral Group, *Coconut Woman*](https://youtu.be/S18HEazgxeo) | |
+The [Colombian Music Map](https://jdleongomez.github.io/Colombian_music_map/), created by congress host Juan David Leongómez, is an interactive guide to that diversity: it plots traditional, fusion and non-traditional musical examples across the country's six regions, each with its own playable audio clip.
 
-For more, this [nine-minute documentary](https://www.youtube.com/watch?v=oRL44KZXuvE) is a good introduction to Colombian traditional music.
+<a href="https://jdleongomez.github.io/Colombian_music_map/">
+  <img src="/images/colombia-music-map.jpg" alt="Colombian Music Map: an interactive map of Colombian musical traditions">
+</a>
 
 ## Beyond Bogotá
 
