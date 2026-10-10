@@ -4,6 +4,7 @@ import Week from './Week.astro';
 import KeyDates from './KeyDates.astro';
 import Speakers from './Speakers.astro';
 import NewsList from './NewsList.astro';
+import ColombiaMap from './ColombiaMap.astro';
 
 interface Props {
   names: readonly string[];
@@ -19,6 +20,7 @@ const { names } = Astro.props;
       {name === 'key-dates' && <KeyDates />}
       {name === 'speakers' && <Speakers />}
       {name === 'news' && <NewsList />}
+      {name === 'colombia-map' && <ColombiaMap />}
     </div>
   ))
 }

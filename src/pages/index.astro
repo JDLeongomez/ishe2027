@@ -15,19 +15,26 @@ const tripPages = bogota ? bogota.pages.filter((page) => pageHref(page.id) !== b
 <Base>
   <section class="hero">
     <div class="wrap hero-inner">
-      <p class="hero-event">{site.name}</p>
-      <h1>
-        <span class="hero-place">{site.city}, {site.country}</span>
-        <span class="hero-dates">{site.dates.label}</span>
-      </h1>
-      <p class="hero-lede">
-        The {site.society.name} meets in the Colombian Andes for a week of workshops, talks and posters on human
-        behaviour, 2,640 metres above sea level.
-      </p>
-      <p class="hero-actions">
-        <a class="button" href="/programme/">See the preliminary programme</a>
-        <a class="button button-quiet" href="/bogota/">Plan your trip to Bogotá</a>
-      </p>
+      <div class="hero-text">
+        <p class="hero-event">{site.name}</p>
+        <h1>
+          <span class="hero-place">{site.city}, {site.country}</span>
+          <span class="hero-dates-row">
+            <span class="hero-dates">{site.dates.label}</span>
+            <span class="hero-logo">
+              <img src="/logos/ishe-gold.png" alt={site.society.name} />
+            </span>
+          </span>
+        </h1>
+        <p class="hero-lede">
+          The {site.society.name} meets in the Colombian Andes for a week of workshops, talks and posters on human
+          behaviour, 2,640 metres above sea level.
+        </p>
+        <p class="hero-actions">
+          <a class="button" href="/programme/">See the preliminary programme</a>
+          <a class="button button-quiet" href="/bogota/">Plan your trip to Bogotá</a>
+        </p>
+      </div>
     </div>
     <Ridge />
   </section>

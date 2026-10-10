@@ -227,14 +227,34 @@ svg {
   letter-spacing: -0.035em;
 }
 
-.hero-place,
-.hero-dates {
+.hero-place {
   display: block;
 }
 
+.hero-dates-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--space-4);
+}
+
 .hero-dates {
+  display: block;
   font-weight: 300;
   letter-spacing: -0.03em;
+}
+
+.hero-logo {
+  flex: 0 0 auto;
+  border-left: 1px solid var(--on-dark-soft);
+  padding-left: var(--space-4);
+}
+
+.hero-logo img {
+  display: block;
+  width: clamp(7.5rem, 4.5rem + 10.5vw, 12rem);
+  height: auto;
 }
 
 .hero-lede {
@@ -929,7 +949,7 @@ svg {
 
 .partner-logos img {
   display: block;
-  height: 2rem;
+  height: 5rem;
   width: auto;
 }
 
@@ -939,4 +959,102 @@ svg {
   background: var(--paper);
   padding: var(--space-1) var(--space-2);
   border-radius: var(--radius-chip);
+}
+
+/* Colombia map -------------------------------------------------------- */
+
+.colombia-map {
+  max-width: 28rem;
+  margin: 0 auto var(--space-6);
+}
+
+.colombia-map-frame {
+  position: relative;
+}
+
+.colombia-map-main {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.colombia-map-backdrop {
+  fill: var(--paper-tint);
+}
+
+.colombia-map-context {
+  fill: var(--forest-100);
+  stroke: var(--rule);
+  stroke-width: 2px;
+}
+
+.colombia-map-context-label {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: 1px;
+  fill: var(--ink-soft);
+  text-anchor: middle;
+}
+
+.colombia-map-water-label {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 34px;
+  fill: var(--ink-soft);
+  text-anchor: middle;
+}
+
+.colombia-map-locator {
+  position: absolute;
+  left: var(--space-3);
+  bottom: var(--space-3);
+  width: 4.5rem;
+  height: auto;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-chip);
+  padding: var(--space-1);
+}
+
+.colombia-map-locator-others {
+  fill: var(--forest-100);
+  stroke: var(--rule);
+  stroke-width: 0.4;
+}
+
+.colombia-map-locator-colombia {
+  fill: var(--gold-500);
+  stroke: var(--ink);
+  stroke-width: 0.4;
+}
+
+.colombia-map-leader {
+  stroke: var(--ink);
+  stroke-width: 2.2px;
+}
+
+.colombia-map-marker {
+  fill: var(--gold-500);
+  stroke: var(--paper);
+  stroke-width: 3px;
+}
+
+.colombia-map-label {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 42px;
+  fill: var(--ink);
+}
+
+.colombia-map figcaption {
+  margin-top: var(--space-3);
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.colombia-map-credit {
+  display: block;
+  margin-top: var(--space-2);
 }

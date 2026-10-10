@@ -3,7 +3,7 @@ import { file, glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
 // Blocks a page can pull in besides its own text.
-const block = z.enum(['week', 'key-dates', 'speakers', 'news']);
+const block = z.enum(['week', 'key-dates', 'speakers', 'news', 'colombia-map']);
 
 // Every page of the site: one Markdown file each, in src/content/pages/.
 // The folder is the section, the file name is the address.

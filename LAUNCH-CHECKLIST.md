@@ -19,7 +19,7 @@
 - [ ] The description of ISHE on the home page and the About page (paraphrased, not the society's own wording).
 - [ ] Full list of organisers and the programme committee, with titles, affiliations and a link to each person's profile.
 - [ ] Code of conduct: adapt the one ISHE used for its 2026 meeting in Les Eyzies, France (https://ishe.org/conferences-and-summer-institutes/), updating event and venue details for ISHE 2027. Draft text is saved as a comment in `src/content/pages/about/code-of-conduct.md`; publish it there and delete the `status: soon` line.
-- [ ] Ask Jaroslava Varella Valentova (Jarka) to review the whole site and list what needs to change.
+- [ ] Ask Jarka to review the whole site and list what needs to change.
 - [ ] Whether the Monday cocktail, the poster session at Universidad El Bosque, the city tour route and the Caribbean trip can be announced as written (all marked as preliminary).
 
 ## 3. Open points

@@ -1,12 +1,13 @@
 ---
 title: Bogotá
-description: Colombia's capital sits on a high Andean plateau at 2,640 metres (8,660 ft), with mild days, cool nights and green hills in view from almost every street.
+description: Colombia's capital and largest city, home to more than seven million people, sits on a high Andean plateau at 2,640 metres (8,660 ft), with mild days, cool nights and green hills in view from almost every street.
 updated: 2026-10-09
+includeFirst: [colombia-map]
 ---
 
 ## Three things to know before you pack
 
-1. **It is cool, all year.** Bogotá is close to the equator but high in the Andes. Expect about 19 °C (66 °F) by day and 8 °C (46 °F) at night, in July as in any other month. See [weather and altitude](/bogota/weather-and-altitude/).
+1. **It is cool, all year.** Bogotá is just north of the equator but high in the Andes. Expect about 19 °C (66 °F) by day and 8 °C (46 °F) at night, in July as in any other month. See [weather and altitude](/bogota/weather-and-altitude/).
 2. **It is high.** At 2,640 m (8,660 ft), most visitors notice the altitude on the first day or two. Taking it easy on arrival helps.
 3. **The sun is strong.** Even on a cloudy day, sunscreen is part of the daily routine here.
 
@@ -14,7 +15,7 @@ updated: 2026-10-09
 
 Founded in 1538, Bogotá is Colombia's capital and largest city, with more than seven million inhabitants and over ten million in the metropolitan area. It stretches along a high plateau at the foot of the Cerros Orientales, the eastern hills, which are visible from almost everywhere and make it easy to find your bearings: the hills are always to the east.
 
-The congress takes place in the north of the city, in the Chicó area near Parque de la 93 (see [venue](/venue/)). The historic centre, La Candelaria, is about ten kilometres (6.2 mi) to the south.
+The congress takes place in the north of the city, in the Chicó area near *Parque de la 93* (see [venue](/venue/)). The historic centre, La Candelaria, is about ten kilometres (6.2 mi) to the south.
 
 ## Finding your way
 
