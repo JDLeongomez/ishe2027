@@ -7,12 +7,19 @@ node_modules/
 
 # logs
 npm-debug.log*
+pnpm-debug.log*
+*.log
 
 # environment
 .env
 .env.production
+.env.local
+.env.*.local
 
 # OS and editors
 .DS_Store
+Thumbs.db
 .idea/
+.vscode/*
+!.vscode/extensions.json
 .netlify/
