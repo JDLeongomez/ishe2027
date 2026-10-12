@@ -1,7 +1,7 @@
 ---
 title: About the congress
 navTitle: About
-description: ISHE 2027 brings the International Society for Human Ethology to Colombia, with a new format that joins the congress and the postgraduate workshops in a single meeting.
+description: ISHE 2027 brings the International Society for Human Ethology to Colombia, with a new format that joins the congress and the student workshops in a single meeting.
 updated: 2026-10-10
 ---
 
@@ -15,7 +15,7 @@ The [International Society for Human Ethology](https://ishe.org/) (ISHE) promote
 
 ## A new format
 
-Until 2026, ISHE alternated a congress in even years with a Summer Institute in odd years. From 2027 there is a single annual meeting. The congress now opens with a day of workshops for postgraduate students, and continues with four days of plenary lectures, talks and posters.
+Until 2026, ISHE alternated a congress in even years with a Summer Institute in odd years. From 2027 there is a single annual meeting. The congress now opens with a day of workshops for students, and continues with four days of plenary lectures, talks and posters.
 
 ## Why Bogotá
 

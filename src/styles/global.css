@@ -362,6 +362,36 @@ svg {
 
 /* Home page bands ------------------------------------------------------- */
 
+/* Boxed note, used for announcements that should stand out. */
+.callout {
+  max-width: var(--measure);
+  margin-top: var(--space-5);
+  padding: var(--space-5);
+  background: var(--forest-900);
+  border-block: 4px solid var(--gold-500);
+}
+
+.callout-label {
+  color: var(--gold-300);
+  font-family: var(--font-display);
+  font-size: var(--step--1);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.callout-text {
+  margin-block: var(--space-2) var(--space-3);
+  color: var(--on-dark);
+  font-family: var(--font-display);
+  font-size: var(--step-1);
+  line-height: 1.35;
+}
+
+.callout a {
+  color: var(--gold-300);
+}
+
 .band {
   padding-block: var(--space-8);
 }
@@ -398,6 +428,31 @@ svg {
     grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
     gap: var(--space-8);
     align-items: start;
+  }
+
+  .split-balanced .split-intro {
+    grid-area: intro;
+  }
+
+  .split-balanced .split-intro .band-intro {
+    max-width: none;
+  }
+
+  .split-balanced .callout {
+    grid-area: callout;
+    margin-top: 0;
+  }
+
+  .split-balanced .key-dates {
+    grid-area: table;
+  }
+
+  .split-balanced {
+    grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+    grid-template-areas:
+      'intro intro'
+      'callout table';
+    gap: var(--space-5) var(--space-8);
   }
 }
 

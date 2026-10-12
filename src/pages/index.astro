@@ -43,7 +43,7 @@ const tripPages = bogota ? bogota.pages.filter((page) => pageHref(page.id) !== b
     <div class="wrap">
       <h2>The week at a glance</h2>
       <p class="band-intro">
-        A day of workshops for postgraduate students opens the congress, followed by four days of sessions, a poster
+        A day of workshops for students opens the congress, followed by four days of sessions, a poster
         session at Universidad El Bosque, an afternoon in the historic centre and a closing dinner.
       </p>
       <Week />
@@ -51,12 +51,20 @@ const tripPages = bogota ? bogota.pages.filter((page) => pageHref(page.id) !== b
   </section>
 
   <section class="band band-tint">
-    <div class="wrap split">
-      <div>
+    <div class="wrap split split-balanced">
+      <div class="split-intro">
         <h2>Key dates</h2>
         <p class="band-intro">
           The call for abstracts and registration have not opened yet. Dates will appear here first.
         </p>
+      </div>
+      <div class="callout">
+        <p class="callout-label">Support for students</p>
+        <p class="callout-text">
+          Students of any level who are first author of an accepted oral or poster presentation will have their
+          accommodation and registration fee covered by ISHE.
+        </p>
+        <p><a href="/registration/">More about registration</a></p>
       </div>
       <KeyDates />
     </div>

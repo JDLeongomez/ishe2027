@@ -15,7 +15,8 @@
 
 ## 2. To agree with ISHE
 
-- [ ] Official name of the meeting. The site says "ISHE Congress 2027". The 2026 meeting was the "XXVIII Biennial Congress".
+- [x] Official name of the meeting. Jarka confirmed (October 2026) that it is now simply "ISHE Congress", no longer "Biennial". The 2026 meeting was the "XXVIII Biennial Congress".
+- [ ] Confirm with ISHE that accommodation and registration cover for students who are first authors applies as described on the registration page. At past meetings they also paid USD 50 as a meal allowance; add that to the page only if ISHE confirms it for 2027.
 - [ ] The description of ISHE on the home page and the About page (paraphrased, not the society's own wording).
 - [x] Full list of organisers and the programme committee, with affiliations and a link to each person's profile. Added to `src/content/pages/about/index.md`. Academic titles were not supplied and are left out, matching the style already used for the organisers.
 - [ ] Ask each member of the organisers and programme committee lists whether they want to use a different photo. The current ones in `public/committee/` are a first idea, picked and cropped without asking.
