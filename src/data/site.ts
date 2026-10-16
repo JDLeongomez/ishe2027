@@ -53,6 +53,11 @@ export const site = {
     shortName: 'EvoCo',
     url: 'https://jdleongomez.info/en/lab/',
   },
+
+  localHost: {
+    name: 'Juan David Leongómez',
+    url: 'https://jdleongomez.info/',
+  },
 } as const;
 
 // The main sections, in menu order. Each id is a folder in

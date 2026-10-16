@@ -39,15 +39,20 @@ const partnerLogos = [
         <a href={site.society.url}>{site.society.name}</a>, hosted in {site.city} by
         <a href={site.host.url}>{site.host.name}</a>.
       </p>
-      <p>
-        {
-          site.contactEmail ? (
-            <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
-          ) : (
-            <a href="/about/contact/">Contact</a>
-          )
-        }
-      </p>
+      <div class="footer-contact">
+        <p>
+          {
+            site.contactEmail ? (
+              <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>
+            ) : (
+              <a href="/about/contact/">Contact</a>
+            )
+          }
+        </p>
+        <p class="footer-credit">
+          Website designed and managed by <a href={site.localHost.url}>{site.localHost.name}</a>
+        </p>
+      </div>
       <ul class="partner-logos">
         {
           partnerLogos.map((logo) => (

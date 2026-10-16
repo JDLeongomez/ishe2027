@@ -1111,6 +1111,21 @@ figure.photo figcaption {
   border-radius: var(--radius-chip);
 }
 
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: var(--space-2);
+}
+
+.footer-credit {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--on-dark-soft);
+  opacity: 0.75;
+}
+
 /* Colombia map -------------------------------------------------------- */
 
 .colombia-map {
