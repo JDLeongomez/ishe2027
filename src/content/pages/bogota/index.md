@@ -17,6 +17,13 @@ Founded in 1538, Bogotá is Colombia's capital and largest city, with more than 
 
 The congress takes place in the north of the city, in the Chicó area near *Parque de la 93* (see [venue](/venue/)). The historic centre, La Candelaria, is about ten kilometres (6.2 mi) to the south.
 
+<figure class="photo">
+  <a href="#lb-bogota-skyline" class="lightbox-link"><img src="/images/places/bogota-skyline.jpg" alt="Bogotá's skyline against the Cerros Orientales, with the sanctuary of Monserrate visible on the hilltop" /></a>
+  <figcaption>The Cerros Orientales, the hills that border the city to the east. Photo: Elviper, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Salitre_2007_(8).jpg">Wikimedia Commons</a>.</figcaption>
+</figure>
+
+<div id="lb-bogota-skyline" class="lightbox"><a href="#" class="lightbox-close" aria-label="Close">&times;</a><img src="/images/places/bogota-skyline.jpg" alt="Bogotá's skyline against the Cerros Orientales, with the sanctuary of Monserrate visible on the hilltop" /></div>
+
 ## Finding your way
 
 The city is laid out on a grid. *Calles* run east to west, and their numbers go up as you travel north. *Carreras* run north to south, and their numbers go up as you move west, away from the hills. An address such as "Calle 85 # 12-30" means a building on Calle 85, thirty metres (about 100 ft) from the corner of Carrera 12.
