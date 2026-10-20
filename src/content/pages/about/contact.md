@@ -1,6 +1,6 @@
 ---
 title: Contact
-description: How to reach the organisers of ISHE 2027.
+description: How to reach the organisers of the 29th ISHE Congress.
 order: 1
 status: soon
 updated: 2026-10-09

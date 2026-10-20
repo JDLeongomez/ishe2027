@@ -1,6 +1,6 @@
 ---
 title: Registration
-description: Fees, what they include and how to register for ISHE 2027.
+description: Fees, what they include and how to register for the 29th ISHE Congress.
 status: soon
 updated: 2026-10-09
 include: [key-dates]

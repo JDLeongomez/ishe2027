@@ -1,7 +1,7 @@
 ---
 title: About the congress
 navTitle: About
-description: ISHE 2027 brings the International Society for Human Ethology to Colombia, with a new format that joins the congress and the student workshops in a single meeting.
+description: The 29th ISHE Congress brings the International Society for Human Ethology to Colombia, with a new format that joins the congress and the student workshops in a single meeting.
 updated: 2026-10-10
 ---
 

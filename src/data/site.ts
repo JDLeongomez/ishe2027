@@ -2,8 +2,8 @@
 // Change it here and it changes across the whole site.
 
 export const site = {
-  name: 'ISHE Congress 2027',
-  shortName: 'ISHE 2027',
+  name: '29th Congress of the International Society for Human Ethology',
+  shortName: '29th ISHE Congress',
   city: 'Bogotá',
   country: 'Colombia',
 
