@@ -300,10 +300,14 @@ svg {
 
 .ridge {
   position: absolute;
-  inset: auto 0 0 0;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
   width: 100%;
+  /* Caps at the capped height's own ratio (viewBox is 2000x260), so on very wide
+     screens the slice never has to crop the peaks off the top. */
+  max-width: calc(14rem * 2000 / 260);
   height: clamp(8rem, 5rem + 12vw, 14rem);
-  max-width: none;
   pointer-events: none;
 }
 
