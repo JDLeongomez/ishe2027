@@ -14,11 +14,11 @@ export const site = {
   },
 
   // Public address of the site. Change it when the final domain is decided.
-  url: 'https://ishe2027.netlify.app',
+  url: 'https://2027.ishe.org',
 
   // While this is false, every page asks search engines not to index it
   // and robots.txt blocks crawlers. Set it to true on launch day.
-  indexable: false as boolean,
+  indexable: true as boolean,
 
   // Leave empty until there is a congress address. The contact page and
   // the footer show "to be announced" while it is empty.

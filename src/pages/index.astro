@@ -22,7 +22,9 @@ const tripPages = bogota ? bogota.pages.filter((page) => pageHref(page.id) !== b
           <span class="hero-dates-row">
             <span class="hero-dates">{site.dates.label}</span>
             <span class="hero-logo">
-              <img src="/logos/ishe-gold.png" alt={site.society.name} />
+              <a href={site.society.url}>
+                <img src="/logos/ishe-gold.png" alt={site.society.name} />
+              </a>
             </span>
           </span>
         </h1>
